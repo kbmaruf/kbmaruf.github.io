@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scisto.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/23f7a60de5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <nav class="navbar">
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text header-icon">
+            <h3><br></h3>
+            <h1> Hi, I'm <br> <span class="name">MARUF BILLAH</span></h1>
+            <h4>FROM BANGLADESH</h4>
+            <p> I have skilled web designer with over 2 years of extensive experience. <br> My expertise
+                lies in creating stunning websites and innovative designs. <br> I specialize in various aspects of web
+                design, bringing a wealth of knowledge <br>and creativity to every project.
+            </p>
+            <a href="https://www.facebook.com/kbmarufkhan" class="fab fa-facebook"></a>
+            <a href="https://wa.me/8801846205415" class="fa-brands fa-square-whatsapp"></a>
+            <a href="https://www.linkedin.com/in/engr-md-maruf-billah/" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/kbmarufkhan" class="fab fa-instagram"></a>
+        </div>
+        <a href="#about" class="btn-box"> More About Me</a>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Hey, this is my homepage, so I have to say something about myself. Sometimes it is hard to
+                        introduce yourself because you know yourself so well that you do not know where to start with.
+                        Let me give a try to see what kind of image you have about me through my self-description..</p>
+
+                    <div class="tab-taitle">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Network Engineer</span><br>Core Network & IPTSP</li>
+                            <li><span>IT Support Engineer</span><br>Call Center & Helpdesk</li>
+                            <li><span>Assistant Engineer</span><br>Telecommunications & Cellular</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Core Network & IPTSP</li>
+                            <li><span>2021 - 2022</span><br>Call Center & Helpdesk</li>
+                            <li><span>2020 - 2021</span><br>Telecommunications & Cellular</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017 - 2020</span><br>Bsc From University of Asia Pacific (UAP)</li>
+                            <li><span>2015 - 2017</span><br>HSC From Amanullah Collage</li>
+                            <li><span>2014</span><br>SSC From West Fulher Secondary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-network-wired"></i>
+                    <h2>Networking Services</h2>
+                    <p> Our networking services are designed to ensure seamless connectivity and optimal performance for
+                        your business. From setting up robust wired and wireless networks to implementing advanced
+                        security protocols, we cover it all. Trust us to enhance your network infrastructure, providing
+                        reliability and scalability for your business operations. Our goal is to fortify your network
+                        defenses, creating a secure environment for your data and communications.</p>
+                    <a href="https://cloud.google.com/service-infrastructure/docs/service-networking/reference/rest"
+                        target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-user-lock"></i>
+                    <h2>Network Security</h2>
+                    <p class="text-align"> Security is paramount in today's digital landscape, and our services are
+                        dedicated to safeguarding your digital assets. We offer comprehensive security solutions,
+                        including
+                        vulnerability assessments, threat detection, and proactive measures to protect against cyber
+                        threats. With our expertise, you can fortify your defenses and operate with confidence in an
+                        ever-evolving threat landscape supporting the efficiency and productivity of your business.</p>
+                    <a href="https://cloud.google.com/traffic-director/docs/reference/network-security/rest"
+                        target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="far fa-user"></i>
+                    <h2>IT Support Services</h2>
+                    <p> Our IT support services are tailored to meet the unique needs of your business. Whether you
+                        require on-demand technical assistance, troubleshooting, or ongoing maintenance, we've got you
+                        covered. Our team of skilled IT professionals is dedicated to providing prompt and effective
+                        solutions, ensuring your systems run smoothly and minimizing downtime. We offer a flexible
+                        support model, allowing you to choose the level of assistance that aligns with your business
+                        requirements</p>
+                    <a href="https://cloud.google.com/terms/tssg" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Network Infrastructure Setup</h3>
+                        <p>Designed and implemented robust wired and wireless network infrastructures for businesses.
+                        </p>
+                        <a href="#"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Security Implementation</h3>
+                        <p>Designed and implemented robust wired and wireless network infrastructures for businesses.
+                        </p>
+                        <a href="#"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Call Center Operations</h3>
+                        <p>Designed and implemented robust wired and wireless network infrastructures for businesses.
+                        </p>
+                        <a href="#"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fas fa-paper-plane"></i> maruf.billah@ranksitt.com</p>
+                    <p><i class="fas fa-square-phone-flip"></i> +8801708-153237</p>
+                    <div class="social-icons">
+                        <p>Connect on Social Media:</p>
+                        <a href="https://www.facebook.com/kbmarufkhan" class="fab fa-facebook"></a>
+                        <a href="https://wa.me/8801846205415" class="fa-brands fa-square-whatsapp"></a>
+                        <a href="https://www.linkedin.com/in/engr-md-maruf-billah/" class="fab fa-linkedin"></a>
+                        <a href="https://www.instagram.com/kbmarufkhan" class="fab fa-instagram"></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"></div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+                tabcontents[i].classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <p>&copy; Copyright 2023 Scisto.com. All rights reserved. | Designed with <i
+                        class="fa-solid fa-heart"></i> by Scisto Tech</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzN6CHOOkEtYkt7KyRHQAIUS-dTuTI541UmA0J6t_wlpodx3wBa0-Ai6yeASIfF_Isj/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent successfully!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
